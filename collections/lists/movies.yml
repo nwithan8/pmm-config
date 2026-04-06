@@ -1,0 +1,472 @@
+external_templates:
+  - repo: templates/collections
+  - repo: templates/dynamic_collections
+
+collections:
+  ### RATINGS ###
+
+  "📅 Best of the Last 12 Months":
+    template: { name: Collection,
+                sort_title: "Best of the Last 12 Months",
+                level: "____" }
+    name_mapping: "Best of the Last 12 Months Collection"
+    summary: "Top rated movies released in the last 12 months"
+    mdblist_list: https://mdblist.com/lists/nwithan8/best-of-the-last-12-months
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  # Top movies via IMDB, updated monthly
+  "🙌 Best Of All Time":
+    template: { name: Collection,
+                sort_title: "Best Of All Time",
+                level: "____" }
+    name_mapping: "Best Of All Time Collection"
+    summary: "Dive into the best films ever made"
+    imdb_chart: top_movies
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  # Movies with a perfect RT score, updated monthly
+  "💯 The 100 Club":
+    template: { name: Collection,
+                sort_title: "Best Movies Ever",
+                level: "___" }
+    name_mapping: "The 100 Club Collection"
+    summary: "RottenTomatoes' movies with a perfect score"
+    mdblist_list: https://mdblist.com/lists/hdlists/100-on-rottentomatoes-com
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  # Worst movies of all time, updated monthly
+  "💩 Just the Worst":
+    template: { name: Collection,
+                sort_title: "Worst Movies Ever",
+                level: "__" }
+    name_mapping: "Just the Worst Collection"
+    summary: "The worst movies of all time."
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/worst-movies-of-all-time
+      - https://trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
+    collection_order: random
+    sync_mode: append
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+    # Biggest box office bombs, according to Wikipedia, updated monthly
+  "💣 Box Office Bombs":
+    template: { name: Collection,
+                sort_title: "Box Office Bombs",
+                level: "__" }
+    name_mapping: "Box Office Bombs Collection"
+    summary: "Tired tropes, sky-high budgets, global pandemics or just plain bad? Either way, these movies bombed at the box office."
+    trakt_list: https://trakt.tv/users/nwithan8/lists/biggest-box-office-bombs?sort=rank,asc
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  ### PODCASTS ###
+
+  "🤨 How Did This Get Made?":
+    template: { name: Collection,
+                sort_title: "How Did This Get Made?",
+                level: "__" }
+    summary: "The films of the podcast 'How Did This Get Made?'"
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
+    collection_order: custom
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "👍 Best Movie Ever":
+    template: { name: Collection,
+                sort_title: "Weekly Planet - Best Movie Ever",
+                level: "__" }
+    letterboxd_list_details:
+      - https://letterboxd.com/nwithan8/list/best-movie-ever-weekly-planet/
+    collection_order: random
+    sync_mode: append
+    schedule:
+      - daily
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "👎 Worst Movie Ever":
+    template: { name: Collection,
+                sort_title: "Weekly Planet - Worst Movie Ever",
+                level: "__" }
+    letterboxd_list_details:
+      - https://letterboxd.com/nwithan8/list/worst-movie-ever-weekly-planet/
+    collection_order: random
+    sync_mode: append
+    schedule:
+      - daily
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🏁 The Game Is On":
+    template: { name: Collection,
+                sort_title: "The Game Is On",
+                level: "__" }
+    name_mapping: "The Game Is On Collection"
+    summary: "Weekly Planet - Movies with sequel bait endings that (probably) never went anywhere"
+    letterboxd_list:
+      - https://letterboxd.com/nwithan8/list/the-game-is-on/
+    collection_order: release.desc  # Newest to oldest
+    sync_mode: append
+    schedule:
+      - daily
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "📼 The Video Archives Podcast":
+    template: { name: Collection,
+                sort_title: "The Video Archives Podcast",
+                level: "__" }
+    letterboxd_list_details: https://letterboxd.com/doperle/list/video-archives-podcast-canon/
+    summary: "The podcast features discussion on films from the VHS library of Quentin Tarantino, the bulk of which is the original stock from Video Archives, which Quentin purchased when the store closed."
+    collection_order: custom
+    sync_mode: sync  # Match collection exactly
+    schedule:
+      - daily
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🎙️ Nate Reviews":
+    template: { name: Collection,
+                sort_title: "Nate Reviews",
+                level: "__" }
+    summary: "Every movie from the Nate Reviews YouTube series"
+    letterboxd_list:
+      - https://letterboxd.com/nwithan8/list/nate-reviews/
+    collection_order: release.desc
+    sync_mode: append
+    schedule:
+      - daily
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  ### LISTS ###
+
+  "🎩 1001 Movies You Must See Before You Die":
+    template: { name: Collection,
+                sort_title: "1001 Movies You Must See Before You Die",
+                level: "__" }
+    name_mapping: "1001 Movies You Must See Before You Die Collection"
+    # summary provided by Trakt
+    trakt_list_details:
+      - https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    schedule:
+      - monthly(03)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🪣 100 Movies Bucket List":
+    template: { name: Collection,
+                sort_title: "100 Movies Bucket List",
+                level: "__",
+                poster_url: https://m.media-amazon.com/images/I/81KZufVPTgL._AC_SL1500_.jpg }
+    # summary provided by Trakt
+    trakt_list_details:
+      - https://trakt.tv/users/dildogarden/lists/100-movies-bucket-list
+    collection_order: custom
+    sync_mode: sync  # Match collection exactly
+    schedule:
+      - monthly(04)
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "📽️ Classic Movies for Beginners":
+    template: { name: Collection,
+                sort_title: "Classic Movies for Beginners",
+                level: "__", }
+    # summary provided by Letterboxd
+    letterboxd_list_details:
+      - https://letterboxd.com/hepburnluv/list/classic-movies-for-beginners/
+    collection_order: custom
+    sync_mode: sync  # Match collection exactly
+    schedule:
+      - monthly(04)
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "📽️ The Criterion Collection":
+    template: { name: Collection,
+                sort_title: "The Criterion Collection",
+                level: "__" }
+    # summary provided by Letterboxd
+    letterboxd_list_details:
+      - https://letterboxd.com/jbutts15/list/the-complete-criterion-collection/
+    collection_order: critic_rating.desc
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🟢 Letterboxd Video Store":
+    template: { name: Collection,
+                sort_title: "Letterboxd Video Store",
+                level: "_" }
+    # summary provided by Letterboxd
+    letterboxd_list:
+      - https://letterboxd.com/crew/list/every-film-available-on-video-store/
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  ### GENERAL ###
+
+  "🏷️ A Blockbuster Night":
+    template: { name: Collection,
+                level: "_" }
+    summary: "Make it a Blockbuster Night"
+    trakt_list:
+      - https://trakt.tv/users/padawan_seneca/lists/childhood-vhs-movies
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "⌚ Cinematic Quickie":
+    template: { name: Collection,
+                sort_title: "Cinematic Quickie",
+                level: "_" }
+    name_mapping: "Cinematic Quickie Collection"
+    summary: "When you just don't have time for a full-length movie"
+    letterboxd_list:
+      - https://letterboxd.com/stautis/list/good-films-90-minutes-or-less/
+      - https://letterboxd.com/leumon/list/under-100-minutes/
+    collection_order: random
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "👓 Put Your Glasses On":
+    template: { name: Collection,
+                sort_title: "3D Movies Collection",
+                level: "_" }
+    name_mapping: "3D Movies Collection"
+    summary: "A history of classic and modern 3D movies"
+    letterboxd_list:
+      - https://letterboxd.com/carlosrossi/list/golden-age-3d-movies-1952-1962/
+      - https://letterboxd.com/carlosrossi/list/silver-age-3d-movies-1966-2002/
+      - https://letterboxd.com/carlosrossi/list/3-d-horror-movies-1953-current/
+      - https://letterboxd.com/shrekatswamp/list/3d-collection-another-dimension-in-physical/
+    collection_order: release.asc
+    sync_mode: sync  # Match collection exactly
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  ### FRANCHISES ###
+
+  "🤵‍♂️ Bond. James Bond.":
+    template: { name: Franchise,
+                sort_title: "James Bond",
+                level: "_" }
+    name_mapping: "James Bond Collection"
+    summary: "007 forever"
+    mdblist_list: https://mdblist.com/lists/hdlists/james-bond-movies
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🦸 I Love You 3000":
+    template: { name: Franchise,
+                sort_title: "Marvel Cinematic Universe",
+                level: "_" }
+    name_mapping: "Marvel Cinematic Universe Collection"
+    summary: "The Marvel Cinematic Universe"
+    trakt_list:
+      - https://trakt.tv/users/cinhd/lists/marvel-cinematic-universe?sort=rank%2Casc
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🦸 Tell Me, Do You Bleed?":
+    template: { name: Franchise,
+                sort_title: "DC Cinematic Universe",
+                level: "_" }
+    name_mapping: "DC Cinematic Universe Collection"
+    summary: "The DC Cinematic Universe"
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/dc-entertainment-s-movies-dceu
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🦇 I Am Vengeance! I Am The Night!":
+    template: { name: Franchise,
+                sort_title: "Batman",
+                level: "_" }
+    name_mapping: "Batman Collection"
+    summary: "I'm Batman."
+    trakt_list:
+      - https://trakt.tv/users/andersonwallacerj/lists/batman
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🐭 Disney Channel Original Movies":
+    template: { name: Franchise,
+                sort_title: "Disney Channel Original Movies",
+                level: "_" }
+    name_mapping: "Disney Channel Original Movies Collection"
+    summary: "You're watching Disney Channel"
+    imdb_list:
+      - https://www.imdb.com/list/ls093405279
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🪐 To Boldly Go":
+    summary: "The Star Trek collection"
+    template: { name: Franchise,
+                sort_title: "Star Trek",
+                level: "_" }
+    trakt_list:
+      - https://trakt.tv/users/dgw/lists/star-trek-canon
+    url_background: https://i.redd.it/vz20prnp8v551.jpg
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🚀 In A Galaxy Far, Far Away":
+    summary: "The Star Wars collection"
+    template: { name: Franchise,
+                sort_title: "Star Wars",
+                level: "_" }
+    trakt_list_details:
+      - https://trakt.tv/users/sonicwarrior/lists/star-wars-canon-timeline
+    url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
+    collection_order: custom
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "👽 Bears. Beets. Battlestar Galactica":
+    summary: "The Battlestar Galactica collection"
+    template: { name: Franchise,
+                sort_title: "Battlestar Galactica",
+                level: "_" }
+    name_mapping: "Battlestar Galactica Collection"
+    trakt_list_details:
+      - https://trakt.tv/users/mraniki/lists/battlestar-galactica-universe
+    url_background: https://wallpapercave.com/wp/vPJGO64.jpg
+    collection_order: custom
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🦎 King of The Monsters":
+    summary: "The Godzilla collection"
+    template: { name: Franchise,
+                sort_title: "Godzilla",
+                level: "_" }
+    name_mapping: "Godzilla Collection"
+    trakt_list:
+      - https://trakt.tv/users/quentinz/lists/godzilla
+      - https://trakt.tv/users/marcelocastanheira/lists/godzilla
+    url_background: https://www.scified.com/media/versions_of_godzilla.jpg
+    collection_order: release
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🪶 To Be Or Not To Be":
+    summary: "The Shakespeare collection"
+    template: { name: Franchise,
+                sort_title: "Shakespeare",
+                level: "_" }
+    trakt_list_details:
+      - https://trakt.tv/users/michaeldibben/lists/shakespeare-plays
+    url_background: https://images.unsplash.com/photo-1598391990342-311775e3d374
+    collection_order: random
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "🐦‍⬛ Quoth the Raven":
+    name_mapping: "Edgar Allan Poe Collection"
+    summary: "The Edgar Allan Poe collection"
+    template: { name: Franchise,
+                sort_title: "Edgar Allan Poe",
+                level: "_" }
+    trakt_list_details:
+      - https://trakt.tv/users/majeed_pk/lists/the-best-edgar-allan-poe-adaptations
+    url_background: https://wallpapercave.com/wp/wp2328085.jpg
+    collection_order: random
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "📖 Get Busy Living, or Get Busy Dying":
+    summary: "The Stephen King collection"
+    template: { name: Franchise,
+                sort_title: "Stephen King",
+                level: "_",
+                poster: "https://i.redd.it/sz63m6aex2g31.png" }
+    smart_filter:
+      all:
+        writer: "Stephen King"
+      sort_by: release.asc
+    # default schedule
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+

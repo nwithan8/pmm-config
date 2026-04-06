@@ -1,0 +1,7 @@
+# Make sure to exclude the .gitattributes file itself from encryption
+.gitattributes !filter !diff
+
+# Encrypt the following files
+config.yml filter=git-crypt diff=git-crypt
+Makefile filter=git-crypt diff=git-crypt
+copy_kometa_logs.sh filter=git-crypt diff=git-crypt

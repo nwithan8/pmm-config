@@ -1,0 +1,415 @@
+external_templates:
+  - repo: templates/collections
+  - repo: templates/dynamic_collections
+
+collections:
+  "🎤 What's The Deal With Airplane Food?":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Stand-Up Comedy Collection"
+    summary: "Some of the best stand-up you'll ever see."
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "😜 Spoofs and Parodies":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Spoof and Parody Films Collection"
+    summary: "Imitation is the sincerest form of flattery"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "👩‍❤️‍💋‍👨 Rom-com Central":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Romantic Comedies Collection"
+    summary: "Rotten Tomatoes' best romantic comedies of all time"
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🏀 Slam Dunk":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Sports Movies Collection"
+    summary: "The best sports movies, ever."
+    mdblist_list: https://mdblist.com/lists/hdlists/150-best-sports-movies-of-all-time
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  "🚓 Get In Get Out":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Heist Movies Collection"
+    summary: "Don't forget about the getaway driver out front"
+    mdblist_list: https://mdblist.com/lists/hdlists/best-heist-movies-of-all-time
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  "🎢 On The Edge Of Your Seat":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Thriller Movies Collection"
+    summary: "The suspense is killing us!"
+    imdb_search:
+      type: movie, short, tv_movie, tv_special
+      # keyword.any: "Psychological%20Thriller"
+      genre.any: thriller
+      rating.gte: 5.0
+      limit: 100
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  "🤯 What a Twist!":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Plot Twist Movies Collection"
+    summary: "Bet you didn't see THAT coming..."
+    mdblist_list: https://mdblist.com/lists/hdlists/crazy-plot-twists
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  # TODO: Might time out due to size
+  # "📗 Based On A True Story":
+  #  template: { name: Genre,
+  #              level: "__" }
+  #  summary: "Based on a true story"
+  #  trakt_list:
+  #    - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
+  #  collection_order: random
+  #  visible_library: true
+  #  visible_home: true
+  #  visible_shared: true
+
+  "🎀 Chick Flicks":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Chick Flicks Collection"
+    summary: "A woman standing in front of a white background"
+    letterboxd_list:
+      - https://letterboxd.com/kaitienk/list/chick-flicks/
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "📖 The Book Was Better":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Based On A Book Collection"
+    summary: "Based on a book"
+    trakt_list:
+      - https://trakt.tv/users/k0meta/lists/movies-based-on-books
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🕹️ Arrow In The Knee":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Video Game Movies Collection"
+    summary: "Based on a video game"
+    trakt_list:
+      - https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🟢 360 No Scope":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Xbox Movies Collection"
+    summary: "Movies with the asthetics of an Xbox 360 game"
+    letterboxd_list:
+      - https://letterboxd.com/lcdneworder/list/movies-that-feel-like-an-xbox-360-game/
+    collection_order: random
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+
+  "💬 With Great Power...":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "With Great Power Collection"
+    summary: "Based on a comic book"
+    trakt_list:
+      - https://trakt.tv/users/k0meta/lists/movies-based-on-comics
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "👾 Monsters vs. Aliens":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Monsters Vs Aliens Collection"
+    summary: "Save the world from aliens and monsters!"
+    trakt_list:
+      - https://trakt.tv/users/rizreflects/lists/aliens-monsters
+      - https://trakt.tv/users/y0dase/lists/monsters-creatures
+      - https://trakt.tv/users/ctt2canuckt/lists/kaiju-monsters
+      - https://trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🧑‍💻 Hack The Planet":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Hacker Movies Collection"
+    summary: "Hack the planet!"
+    trakt_list:
+      - https://trakt.tv/users/rendom/lists/hack-the-planet-compilation
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🔍 A Real-Life Whodunnit":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "True Crime Collection"
+    summary: "True crime documentaries"
+    trakt_list:
+      - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "👨‍🍳 Bon Appetit":
+    template: { name: Genre,
+                level: "__" }
+    summary: "Mouth-watering movies"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/bon-appetit
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  "📄 Documentaries":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Documentaries Collection"
+    summary: "The top documentaries of all time"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/documentaries
+      - https://trakt.tv/users/bangiras/lists/favorites-documentary
+    letterboxd_list:
+      - https://letterboxd.com/jack/list/official-top-250-documentary-films/
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🧥 I'm Gonna Make Him an Offer":
+    template: { name: Genre,
+                level: "__" }
+    summary: "The best gangster movies of all time"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
+    collection_order: random
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  # TODO: Might time out due to size
+  # "🧑 It Really Happened":
+  #  template: { name: Genre,
+  #              level: "__" }
+  #  summary: "These people actually existed."
+  #  trakt_list:
+  #    - https://trakt.tv/users/majeed_pk/lists/biographies
+  #  collection_order: random
+  #  visible_library: true
+  #  visible_home: true
+  #  visible_shared: true
+
+  "🌿 What Is Life Anyway?":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Existentialist Films Collection"
+    summary: "The best existential movies of all time"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/existentialist-films
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "⚖️ Order In The Court":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Courtroom Drama Collection"
+    summary: "The best courtroom dramas of all time"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/courtroom-dramas
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🪖 World War II, In Order":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "World War II Collection"
+    summary: "Movies depicting World War II, in chronological order"
+    letterboxd_list:
+      - https://letterboxd.com/bigbosskhan/list/world-war-ii/
+    collection_order: custom  # Maintain the order of the list
+    visible_library: true
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+  "🏈 Are You Ready For Some Football?":
+    template: { name: Genre,
+                level: "__",
+                poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/genre/Football.jpg }
+    name_mapping: "Football Movies Collection"
+    summary: "The best football movies of all time"
+    trakt_list:
+      - https://trakt.tv/users/jbergenudd/lists/american-football
+      - https://trakt.tv/users/kingkearney/lists/american-football
+      - https://trakt.tv/users/minusha97/lists/favorite-football-films-according-to-imdb-picks
+      - https://trakt.tv/users/benfranklin/lists/sport-nfl-movies
+    collection_order: random
+    schedule:
+      - yearly(08/20)
+      - all[weekly(saturday|sunday|monday), range(08/20-09/30)]
+      - yearly(10/01)
+      - yearly(12/10)
+      - all[weekly(saturday|sunday), range(12/10-02/08)]
+      - yearly(02/09)
+    # Only visible during on weekends during early football season, and all college bowls/NFL playoffs
+    visible_library:
+      - all[weekly(saturday|sunday), range(08/20-09/30)]
+      - range(12/10-02/08)
+    visible_home:
+      - all[weekly(saturday|sunday), range(08/20-09/30)]
+      - range(12/10-02/08)
+    visible_shared:
+      - all[weekly(saturday|sunday), range(08/20-09/30)]
+      - range(12/10-02/08)
+
+  "⚾ Knock It Out Of The Park":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Baseball Movies Collection"
+    summary: "The best baseball movies of all time"
+    trakt_list:
+      - https://trakt.tv/users/tony_baseball_/lists/baseball-baseball
+      - https://trakt.tv/users/pterisaur/lists/baseball-24253132
+    collection_order: random
+    schedule:
+      - yearly(03/25)
+      - all[weekly(saturday|sunday), range(03/26-04/16)]
+      - yearly(04/16)
+      - yearly(09/25)
+      - all[weekly(saturday|sunday), range(09/25-11/07)]
+      - yearly(11/07)
+    # Only visible during opening day and the World Series
+    visible_library:
+      - range(03/25-04/15)
+      - range(09/25-11/06)
+    visible_home:
+      - range(03/25-04/15)
+      - range(09/25-11/06)
+    visible_shared:
+      - range(03/25-04/15)
+      - range(09/25-11/06)
+
+  "🙂 Feel-Good Movies":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Feel Good Movies Collection"
+    summary: "The best feel-good movies of all time"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "🧘 Enjoy The Weekend":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Chill Movies Collection"
+    summary: "The best movies for a lazy weekend afternoon"
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/sunday-afternoon-movies?sort=rank,asc
+    collection_order: random
+    schedule:
+      - weekly(saturday|sunday|monday)
+    visible_home:
+      - weekly(saturday|sunday)
+    visible_shared:
+      - weekly(saturday|sunday)
+    visible_library:
+      - weekly(saturday|sunday)
+
+  "🤪 The Weirdo's Videostore":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Weirdo Videostore Collection"
+    summary: "Cinema is strange."
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+
+  "⁉️ Controversial Cinema":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Controversial Cinema Collection"
+    summary: "The most edgy, crazy, disturbing, controversial, shocking, bizarre, scandalous and downright f***ed up films of all time!"
+    trakt_list:
+      - https://trakt.tv/users/majeed_pk/lists/dark-deeply-disturbing-controversial-shocking-bizarre-and-messed-up-films
+    collection_order: random
+    visible_library: false  # This is a hidden collection due to the nature of the content
+    visible_home: false  # Not advertised on the home page
+    visible_shared: false  # Not advertised on the home page
+
+
+dynamic_collections:
+  ## Use DC as suffix to avoid name conflicts with static collections
+  ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
+
+  Per-Genre DC Movies: # mapping name does not matter just needs to be unique
+    type: genre
+    exclude:
+      - Action/Adventure
+      - Talk
+      - Talk Show
+      - Awards Show
+      - Podcast
+      - Misdaad
+    title_format: <<key_name>>
+    template:
+      - Per_Genre
+    key_name_override:
+      Film-Noir: Film Noir
