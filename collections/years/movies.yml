@@ -6,7 +6,7 @@ templates:
   Movies_Best_of_Year:
     default:
       level: ""
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<key>>
+    trakt_list: https://app.trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<key>>
     sort_title: 080__<<level>>_Best of <<key>>
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<key>>

@@ -57,8 +57,8 @@ collections:
     name_mapping: "Just the Worst Collection"
     summary: "The worst movies of all time."
     trakt_list:
-      - https://trakt.tv/users/hdlists/lists/worst-movies-of-all-time
-      - https://trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
+      - https://app.trakt.tv/users/hdlists/lists/worst-movies-of-all-time
+      - https://app.trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
     collection_order: random
     sync_mode: append
     # default schedule
@@ -73,7 +73,7 @@ collections:
                 level: "__" }
     name_mapping: "Box Office Bombs Collection"
     summary: "Tired tropes, sky-high budgets, global pandemics or just plain bad? Either way, these movies bombed at the box office."
-    trakt_list: https://trakt.tv/users/nwithan8/lists/biggest-box-office-bombs?sort=rank,asc
+    trakt_list: https://app.trakt.tv/users/nwithan8/lists/biggest-box-office-bombs?sort=rank,asc
     collection_order: random
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -89,7 +89,7 @@ collections:
                 level: "__" }
     summary: "The films of the podcast 'How Did This Get Made?'"
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
+      - https://app.trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
     collection_order: custom
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -179,7 +179,7 @@ collections:
     name_mapping: "1001 Movies You Must See Before You Die Collection"
     # summary provided by Trakt
     trakt_list_details:
-      - https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
+      - https://app.trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
     collection_order: random
     sync_mode: sync  # Match collection exactly
     schedule:
@@ -195,7 +195,7 @@ collections:
                 poster_url: https://m.media-amazon.com/images/I/81KZufVPTgL._AC_SL1500_.jpg }
     # summary provided by Trakt
     trakt_list_details:
-      - https://trakt.tv/users/dildogarden/lists/100-movies-bucket-list
+      - https://app.trakt.tv/users/dildogarden/lists/100-movies-bucket-list
     collection_order: custom
     sync_mode: sync  # Match collection exactly
     schedule:
@@ -254,7 +254,7 @@ collections:
                 level: "_" }
     summary: "Make it a Blockbuster Night"
     trakt_list:
-      - https://trakt.tv/users/padawan_seneca/lists/childhood-vhs-movies
+      - https://app.trakt.tv/users/padawan_seneca/lists/childhood-vhs-movies
     collection_order: random
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -318,7 +318,7 @@ collections:
     name_mapping: "Marvel Cinematic Universe Collection"
     summary: "The Marvel Cinematic Universe"
     trakt_list:
-      - https://trakt.tv/users/cinhd/lists/marvel-cinematic-universe?sort=rank%2Casc
+      - https://app.trakt.tv/users/donxy/lists/marvel-cinematic-universe
     collection_order: release
     # default schedule
     visible_library: true
@@ -332,7 +332,7 @@ collections:
     name_mapping: "DC Cinematic Universe Collection"
     summary: "The DC Cinematic Universe"
     trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/dc-entertainment-s-movies-dceu
+      - https://app.trakt.tv/users/ale-spatti06/lists/dc-entertainment-s-movies-dceu
     collection_order: release
     # default schedule
     visible_library: true
@@ -346,7 +346,7 @@ collections:
     name_mapping: "Batman Collection"
     summary: "I'm Batman."
     trakt_list:
-      - https://trakt.tv/users/andersonwallacerj/lists/batman
+      - https://app.trakt.tv/users/andersonwallacerj/lists/batman
     collection_order: release
     # default schedule
     visible_library: true
@@ -373,7 +373,7 @@ collections:
                 sort_title: "Star Trek",
                 level: "_" }
     trakt_list:
-      - https://trakt.tv/users/dgw/lists/star-trek-canon
+      - https://app.trakt.tv/users/dgw/lists/star-trek-canon
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
     # default schedule
@@ -387,7 +387,7 @@ collections:
                 sort_title: "Star Wars",
                 level: "_" }
     trakt_list_details:
-      - https://trakt.tv/users/sonicwarrior/lists/star-wars-canon-timeline
+      - https://app.trakt.tv/users/sonicwarrior/lists/star-wars-canon-timeline
     url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
     collection_order: custom
     # default schedule
@@ -402,7 +402,7 @@ collections:
                 level: "_" }
     name_mapping: "Battlestar Galactica Collection"
     trakt_list_details:
-      - https://trakt.tv/users/mraniki/lists/battlestar-galactica-universe
+      - https://app.trakt.tv/users/mraniki/lists/battlestar-galactica-universe
     url_background: https://wallpapercave.com/wp/vPJGO64.jpg
     collection_order: custom
     # default schedule
@@ -417,8 +417,8 @@ collections:
                 level: "_" }
     name_mapping: "Godzilla Collection"
     trakt_list:
-      - https://trakt.tv/users/quentinz/lists/godzilla
-      - https://trakt.tv/users/marcelocastanheira/lists/godzilla
+      - https://app.trakt.tv/users/quentinz/lists/godzilla
+      - https://app.trakt.tv/users/marcelocastanheira/lists/godzilla
     url_background: https://www.scified.com/media/versions_of_godzilla.jpg
     collection_order: release
     # default schedule
@@ -432,7 +432,7 @@ collections:
                 sort_title: "Shakespeare",
                 level: "_" }
     trakt_list_details:
-      - https://trakt.tv/users/michaeldibben/lists/shakespeare-plays
+      - https://app.trakt.tv/users/michaeldibben/lists/shakespeare-plays
     url_background: https://images.unsplash.com/photo-1598391990342-311775e3d374
     collection_order: random
     # default schedule
@@ -447,7 +447,7 @@ collections:
                 sort_title: "Edgar Allan Poe",
                 level: "_" }
     trakt_list_details:
-      - https://trakt.tv/users/majeed_pk/lists/the-best-edgar-allan-poe-adaptations
+      - https://app.trakt.tv/users/majeed_pk/lists/the-best-edgar-allan-poe-adaptations
     url_background: https://wallpapercave.com/wp/wp2328085.jpg
     collection_order: random
     # default schedule

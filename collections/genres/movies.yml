@@ -9,7 +9,7 @@ collections:
     name_mapping: "Stand-Up Comedy Collection"
     summary: "Some of the best stand-up you'll ever see."
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
+      - https://app.trakt.tv/users/lish408/lists/stand-up-comedy-specials
     collection_order: random
     visible_library: true
     visible_home: true
@@ -21,7 +21,7 @@ collections:
     name_mapping: "Spoof and Parody Films Collection"
     summary: "Imitation is the sincerest form of flattery"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/spoof-parody-films
+      - https://app.trakt.tv/users/majeed_pk/lists/spoof-parody-films
     collection_order: random
     visible_library: true
     visible_home: true
@@ -33,7 +33,7 @@ collections:
     name_mapping: "Romantic Comedies Collection"
     summary: "Rotten Tomatoes' best romantic comedies of all time"
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
+      - https://app.trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
     collection_order: random
     visible_library: true
     visible_home: true
@@ -94,7 +94,7 @@ collections:
   #              level: "__" }
   #  summary: "Based on a true story"
   #  trakt_list:
-  #    - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
+  #    - https://app.trakt.tv/users/k0meta/lists/movies-based-on-true-stories
   #  collection_order: random
   #  visible_library: true
   #  visible_home: true
@@ -118,7 +118,7 @@ collections:
     name_mapping: "Based On A Book Collection"
     summary: "Based on a book"
     trakt_list:
-      - https://trakt.tv/users/k0meta/lists/movies-based-on-books
+      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-books
     collection_order: random
     visible_library: true
     visible_home: true
@@ -130,7 +130,7 @@ collections:
     name_mapping: "Video Game Movies Collection"
     summary: "Based on a video game"
     trakt_list:
-      - https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
+      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-video-games
     collection_order: random
     visible_library: true
     visible_home: true
@@ -154,7 +154,7 @@ collections:
     name_mapping: "With Great Power Collection"
     summary: "Based on a comic book"
     trakt_list:
-      - https://trakt.tv/users/k0meta/lists/movies-based-on-comics
+      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-comics
     collection_order: random
     visible_library: true
     visible_home: true
@@ -166,10 +166,10 @@ collections:
     name_mapping: "Monsters Vs Aliens Collection"
     summary: "Save the world from aliens and monsters!"
     trakt_list:
-      - https://trakt.tv/users/rizreflects/lists/aliens-monsters
-      - https://trakt.tv/users/y0dase/lists/monsters-creatures
-      - https://trakt.tv/users/ctt2canuckt/lists/kaiju-monsters
-      - https://trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
+      - https://app.trakt.tv/users/rizreflects/lists/aliens-monsters
+      - https://app.trakt.tv/users/y0dase/lists/monsters-creatures
+      - https://app.trakt.tv/users/ctt2canuckt/lists/kaiju-monsters
+      - https://app.trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
     collection_order: random
     visible_library: true
     visible_home: true
@@ -181,7 +181,7 @@ collections:
     name_mapping: "Hacker Movies Collection"
     summary: "Hack the planet!"
     trakt_list:
-      - https://trakt.tv/users/rendom/lists/hack-the-planet-compilation
+      - https://app.trakt.tv/users/rendom/lists/hack-the-planet-compilation
     collection_order: random
     visible_library: true
     visible_home: true
@@ -193,7 +193,7 @@ collections:
     name_mapping: "True Crime Collection"
     summary: "True crime documentaries"
     trakt_list:
-      - https://trakt.tv/users/lish408/lists/true-crime-documentary-series-film
+      - https://app.trakt.tv/users/lish408/lists/true-crime-documentary-series-film
     collection_order: random
     visible_library: true
     visible_home: true
@@ -204,7 +204,7 @@ collections:
                 level: "__" }
     summary: "Mouth-watering movies"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/bon-appetit
+      - https://app.trakt.tv/users/majeed_pk/lists/bon-appetit
     collection_order: random
     visible_library: true
     visible_home: false  # Not advertised on the home page
@@ -216,8 +216,8 @@ collections:
     name_mapping: "Documentaries Collection"
     summary: "The top documentaries of all time"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/documentaries
-      - https://trakt.tv/users/bangiras/lists/favorites-documentary
+      - https://app.trakt.tv/users/majeed_pk/lists/documentaries
+      - https://app.trakt.tv/users/bangiras/lists/favorites-documentary
     letterboxd_list:
       - https://letterboxd.com/jack/list/official-top-250-documentary-films/
     collection_order: random
@@ -230,7 +230,7 @@ collections:
                 level: "__" }
     summary: "The best gangster movies of all time"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
+      - https://app.trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
     collection_order: random
     visible_library: true
     visible_home: false  # Not advertised on the home page
@@ -242,7 +242,7 @@ collections:
   #              level: "__" }
   #  summary: "These people actually existed."
   #  trakt_list:
-  #    - https://trakt.tv/users/majeed_pk/lists/biographies
+  #    - https://app.trakt.tv/users/majeed_pk/lists/biographies
   #  collection_order: random
   #  visible_library: true
   #  visible_home: true
@@ -254,7 +254,7 @@ collections:
     name_mapping: "Existentialist Films Collection"
     summary: "The best existential movies of all time"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/existentialist-films
+      - https://app.trakt.tv/users/majeed_pk/lists/existentialist-films
     collection_order: random
     visible_library: true
     visible_home: true
@@ -266,7 +266,7 @@ collections:
     name_mapping: "Courtroom Drama Collection"
     summary: "The best courtroom dramas of all time"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/courtroom-dramas
+      - https://app.trakt.tv/users/majeed_pk/lists/courtroom-dramas
     collection_order: random
     visible_library: true
     visible_home: true
@@ -291,10 +291,10 @@ collections:
     name_mapping: "Football Movies Collection"
     summary: "The best football movies of all time"
     trakt_list:
-      - https://trakt.tv/users/jbergenudd/lists/american-football
-      - https://trakt.tv/users/kingkearney/lists/american-football
-      - https://trakt.tv/users/minusha97/lists/favorite-football-films-according-to-imdb-picks
-      - https://trakt.tv/users/benfranklin/lists/sport-nfl-movies
+      - https://app.trakt.tv/users/jbergenudd/lists/american-football
+      - https://app.trakt.tv/users/kingkearney/lists/american-football
+      - https://app.trakt.tv/users/minusha97/lists/favorite-football-films-according-to-imdb-picks
+      - https://app.trakt.tv/users/benfranklin/lists/sport-nfl-movies
     collection_order: random
     schedule:
       - yearly(08/20)
@@ -320,8 +320,8 @@ collections:
     name_mapping: "Baseball Movies Collection"
     summary: "The best baseball movies of all time"
     trakt_list:
-      - https://trakt.tv/users/tony_baseball_/lists/baseball-baseball
-      - https://trakt.tv/users/pterisaur/lists/baseball-24253132
+      - https://app.trakt.tv/users/tony_baseball_/lists/baseball-baseball
+      - https://app.trakt.tv/users/pterisaur/lists/baseball-24253132
     collection_order: random
     schedule:
       - yearly(03/25)
@@ -347,7 +347,7 @@ collections:
     name_mapping: "Feel Good Movies Collection"
     summary: "The best feel-good movies of all time"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/feelgood-movies
+      - https://app.trakt.tv/users/majeed_pk/lists/feelgood-movies
     collection_order: random
     visible_library: true
     visible_home: true
@@ -359,7 +359,7 @@ collections:
     name_mapping: "Chill Movies Collection"
     summary: "The best movies for a lazy weekend afternoon"
     trakt_list:
-      - https://trakt.tv/users/hdlists/lists/sunday-afternoon-movies?sort=rank,asc
+      - https://app.trakt.tv/users/hdlists/lists/sunday-afternoon-movies?sort=rank,asc
     collection_order: random
     schedule:
       - weekly(saturday|sunday|monday)
@@ -376,7 +376,7 @@ collections:
     name_mapping: "Weirdo Videostore Collection"
     summary: "Cinema is strange."
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
+      - https://app.trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
     collection_order: random
     visible_library: true
     visible_home: true
@@ -388,7 +388,7 @@ collections:
     name_mapping: "Controversial Cinema Collection"
     summary: "The most edgy, crazy, disturbing, controversial, shocking, bizarre, scandalous and downright f***ed up films of all time!"
     trakt_list:
-      - https://trakt.tv/users/majeed_pk/lists/dark-deeply-disturbing-controversial-shocking-bizarre-and-messed-up-films
+      - https://app.trakt.tv/users/majeed_pk/lists/dark-deeply-disturbing-controversial-shocking-bizarre-and-messed-up-films
     collection_order: random
     visible_library: false  # This is a hidden collection due to the nature of the content
     visible_home: false  # Not advertised on the home page
