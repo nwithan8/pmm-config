@@ -219,7 +219,9 @@ collections:
       - https://app.trakt.tv/users/majeed_pk/lists/documentaries
       - https://app.trakt.tv/users/bangiras/lists/favorites-documentary
     letterboxd_list:
-      - https://letterboxd.com/jack/list/official-top-250-documentary-films/
+      - https://letterboxd.com/fuchsiadyke/list/documentaries
+      - https://letterboxd.com/vermelholimao/list/documentaries/
+      - https://letterboxd.com/latifah/list/documentaries/
     collection_order: random
     visible_library: true
     visible_home: true
