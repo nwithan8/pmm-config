@@ -342,6 +342,25 @@ collections:
     visible_shared:
       - range(03/25-04/15)
       - range(09/25-11/06)
+      -
+
+  "📼 Direct-To-Video":
+    template: { name: Genre,
+                level: "__" }
+    name_mapping: "Direct-To-Video Collection"
+    summary: "Quick, pump out a quick sequel with none of the original cast!"
+    letterboxd_list:
+      - https://letterboxd.com/mechal/list/every-direct-to-video-sequel-to-a-theatrical/
+      - https://letterboxd.com/quario65/list/miscellanious-ranking-direct-to-video-disney/
+      - https://letterboxd.com/sdudley/list/scooby-doo-direct-to-video-watch-party/
+      - https://letterboxd.com/seanofthedead92/list/direct-to-video/
+      - https://letterboxd.com/brenman/list/the-bruce-willis-direct-to-video-challenge/
+      - https://letterboxd.com/linksthesun/list/disney-direct-to-video-sequels-prequels-midquels/
+    collection_order: random
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+      
 
   "🙂 Feel-Good Movies":
     template: { name: Genre,
