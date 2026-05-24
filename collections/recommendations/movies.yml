@@ -9,7 +9,7 @@ collections:
     summary: "Our top picks"
     name_mapping: "Editors Choice Collection"
     letterboxd_list:
-      - https://letterboxd.com/nwithan8/list/movie-recommendations-plex-sync/share/TtfHuZRGvKEiQLhL/
+      - https://letterboxd.com/nwithan8/list/movie-recommendations-plex-sync/
     collection_order: release.desc
     visible_library: true
     visible_home: true
