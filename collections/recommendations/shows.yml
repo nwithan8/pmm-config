@@ -11,6 +11,7 @@ collections:
     trakt_list:
       - https://app.trakt.tv/users/nwithan8/lists/tv-recommendations-plex-sync?sort=popularity,asc
     collection_order: release.desc
+    sync_mode: sync
     visible_library: true
     visible_home: true
     visible_shared: true

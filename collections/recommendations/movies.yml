@@ -11,6 +11,7 @@ collections:
     letterboxd_list:
       - https://letterboxd.com/nwithan8/list/movie-recommendations-plex-sync/
     collection_order: release.desc
+    sync_mode: sync
     visible_library: true
     visible_home: true
     visible_shared: true
