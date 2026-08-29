@@ -110,7 +110,7 @@ settings: # Can be individually specified per library as well
   ignore_ids:
   ignore_imdb_ids:
   item_refresh_delay: 0
-  verify_ssl: true
+  verify_ssl: false
   playlist_sync_to_users: all
   prioritize_assets: false
   playlist_report: true
