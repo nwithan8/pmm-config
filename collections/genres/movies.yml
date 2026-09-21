@@ -8,8 +8,8 @@ collections:
                 level: "__" }
     name_mapping: "Stand-Up Comedy Collection"
     summary: "Some of the best stand-up you'll ever see."
-    trakt_list:
-      - https://app.trakt.tv/users/lish408/lists/stand-up-comedy-specials
+    mdblist_list:
+      - https://mdblist.com/lists/sentinam/stand-up-comedy
     collection_order: random
     visible_library: true
     visible_home: true
@@ -20,8 +20,10 @@ collections:
                 level: "__" }
     name_mapping: "Spoof and Parody Films Collection"
     summary: "Imitation is the sincerest form of flattery"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/spoof-parody-films
+    mdblist_list:
+      - https://mdblist.com/lists/exoduso/spoof
+    letterboxd_list:
+      - https://letterboxd.com/quarkdpn/list/spoof/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -32,8 +34,8 @@ collections:
                 level: "__" }
     name_mapping: "Romantic Comedies Collection"
     summary: "Rotten Tomatoes' best romantic comedies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/lish408/lists/rotten-tomatoes-the-200-best-romantic-comedies-of-all-time
+    letterboxd_list:
+      - https://letterboxd.com/i47watchmovies/list/the-200-best-romantic-comedies-of-all-time/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -117,8 +119,8 @@ collections:
                 level: "__" }
     name_mapping: "Based On A Book Collection"
     summary: "Based on a book"
-    trakt_list:
-      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-books
+    letterboxd_list:
+      - https://letterboxd.com/gavinmcdowell/list/based-on-a-book/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -129,8 +131,13 @@ collections:
                 level: "__" }
     name_mapping: "Video Game Movies Collection"
     summary: "Based on a video game"
-    trakt_list:
-      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-video-games
+    letterboxd_list:
+      - https://letterboxd.com/subcide/list/based-on-a-video-game/
+      - https://letterboxd.com/vhsandvinyl/list/based-on-a-video-game/
+    mdblist_list:
+      - https://mdblist.com/lists/purple_smurf/video-games
+      - https://mdblist.com/lists/swedishfisharmy/movies-based-on-video-games
+      - https://mdblist.com/lists/awesomeaustn/movies-based-on-video-games-live-action
     collection_order: random
     visible_library: true
     visible_home: true
@@ -153,8 +160,11 @@ collections:
                 level: "__" }
     name_mapping: "With Great Power Collection"
     summary: "Based on a comic book"
-    trakt_list:
-      - https://app.trakt.tv/users/k0meta/lists/movies-based-on-comics
+    letterboxd_list:
+      - https://letterboxd.com/msm_57783/list/comic-book/
+    mdblist_list:
+      - https://mdblist.com/lists/takeaflick/comic-book-movie-rankings-all-time-by-jeff-d-lowe
+      - https://mdblist.com/lists/toppstal/superheroes-comic-books
     collection_order: random
     visible_library: true
     visible_home: true
@@ -165,11 +175,12 @@ collections:
                 level: "__" }
     name_mapping: "Monsters Vs Aliens Collection"
     summary: "Save the world from aliens and monsters!"
-    trakt_list:
-      - https://app.trakt.tv/users/rizreflects/lists/aliens-monsters
-      - https://app.trakt.tv/users/y0dase/lists/monsters-creatures
-      - https://app.trakt.tv/users/ctt2canuckt/lists/kaiju-monsters
-      - https://app.trakt.tv/users/twentywashere/lists/welcome-to-earth-alien-invasions
+    letterboxd_list:
+      - https://letterboxd.com/dsuter8/list/monster/
+    mdblist_list:
+      - https://mdblist.com/lists/shanekidd/classic-monsters
+      - https://mdblist.com/lists/robert-qoyhgk/kometa-universal-monsters-chronological
+      - https://mdblist.com/lists/timewormdesigns/monsters-aliens-and-zombies
     collection_order: random
     visible_library: true
     visible_home: true
@@ -180,8 +191,8 @@ collections:
                 level: "__" }
     name_mapping: "Hacker Movies Collection"
     summary: "Hack the planet!"
-    trakt_list:
-      - https://app.trakt.tv/users/rendom/lists/hack-the-planet-compilation
+    letterboxd_list:
+      - https://letterboxd.com/jlalibs/list/hack-the-planet/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -192,8 +203,11 @@ collections:
                 level: "__" }
     name_mapping: "True Crime Collection"
     summary: "True crime documentaries"
-    trakt_list:
-      - https://app.trakt.tv/users/lish408/lists/true-crime-documentary-series-film
+    letterboxd_list:
+      - https://letterboxd.com/artisteando/list/true-crime-documentary/
+      - https://letterboxd.com/nabilazisputri/list/true-crime-documentary/
+    mdblist_list:
+      - https://mdblist.com/lists/jewelbear/true-crime-docs-series
     collection_order: random
     visible_library: true
     visible_home: true
@@ -203,8 +217,11 @@ collections:
     template: { name: Genre,
                 level: "__" }
     summary: "Mouth-watering movies"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/bon-appetit
+    letterboxd_list:
+      - https://letterboxd.com/munta14/list/bon-appetit/
+      - https://letterboxd.com/iauhnaush/list/foooood/
+      - https://letterboxd.com/vcommevu/list/bon-appetit/
+      - https://letterboxd.com/ryanhunter/list/food/
     collection_order: random
     visible_library: true
     visible_home: false  # Not advertised on the home page
@@ -215,13 +232,12 @@ collections:
                 level: "__" }
     name_mapping: "Documentaries Collection"
     summary: "The top documentaries of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/documentaries
-      - https://app.trakt.tv/users/bangiras/lists/favorites-documentary
     letterboxd_list:
       - https://letterboxd.com/fuchsiadyke/list/documentaries
       - https://letterboxd.com/vermelholimao/list/documentaries/
       - https://letterboxd.com/latifah/list/documentaries/
+    mdblist_list:
+      - https://mdblist.com/lists/jarvis-15295834/documentaries
     collection_order: random
     visible_library: true
     visible_home: true
@@ -231,8 +247,11 @@ collections:
     template: { name: Genre,
                 level: "__" }
     summary: "The best gangster movies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/the-complete-list-of-mafia-gangsters-movies
+    letterboxd_list:
+      - https://letterboxd.com/fourstarfilmfan/list/gangsters/
+      - https://letterboxd.com/seven7/list/gangsters/
+    mdblist_list:
+      - https://mdblist.com/lists/jukebox8786/gangsters-mafia
     collection_order: random
     visible_library: true
     visible_home: false  # Not advertised on the home page
@@ -255,8 +274,10 @@ collections:
                 level: "__" }
     name_mapping: "Existentialist Films Collection"
     summary: "The best existential movies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/existentialist-films
+    letterboxd_list:
+      - https://letterboxd.com/dmbbtch420/list/existential/
+    mdblist_list:
+      - https://mdblist.com/lists/w2dwave/existential
     collection_order: random
     visible_library: true
     visible_home: true
@@ -267,8 +288,10 @@ collections:
                 level: "__" }
     name_mapping: "Courtroom Drama Collection"
     summary: "The best courtroom dramas of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/courtroom-dramas
+    mdblist_list:
+      - https://mdblist.com/lists/w2dwave/courtroom-drama
+      - https://mdblist.com/lists/tgpennies/courtroom
+      - https://mdblist.com/lists/patk-dulin/courtroom-dramas
     collection_order: random
     visible_library: true
     visible_home: true
@@ -292,11 +315,12 @@ collections:
                 poster_url: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/genre/Football.jpg }
     name_mapping: "Football Movies Collection"
     summary: "The best football movies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/jbergenudd/lists/american-football
-      - https://app.trakt.tv/users/kingkearney/lists/american-football
-      - https://app.trakt.tv/users/minusha97/lists/favorite-football-films-according-to-imdb-picks
-      - https://app.trakt.tv/users/benfranklin/lists/sport-nfl-movies
+    letterboxd_list:
+      - https://letterboxd.com/yassinntifi/list/football/
+      - https://letterboxd.com/alexquinney/list/football/
+    mdblist_list:
+      - https://mdblist.com/lists/jmlozan/americanfootball
+      - https://mdblist.com/lists/cfran22/most-popular-football-movies-since-1985
     collection_order: random
     schedule:
       - yearly(08/20)
@@ -321,9 +345,11 @@ collections:
                 level: "__" }
     name_mapping: "Baseball Movies Collection"
     summary: "The best baseball movies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/tony_baseball_/lists/baseball-baseball
-      - https://app.trakt.tv/users/pterisaur/lists/baseball-24253132
+    letterboxd_list:
+      - https://letterboxd.com/alexquinney/list/baseball/
+      - https://letterboxd.com/melissa90s/list/baseball/
+    mdblist_list:
+      - https://mdblist.com/lists/cfran22/most-popular-baseball-movies-since-1985
     collection_order: random
     schedule:
       - yearly(03/25)
@@ -367,8 +393,8 @@ collections:
                 level: "__" }
     name_mapping: "Feel Good Movies Collection"
     summary: "The best feel-good movies of all time"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/feelgood-movies
+    letterboxd_list:
+      - https://letterboxd.com/alphonseelric/list/feelgood/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -379,8 +405,10 @@ collections:
                 level: "__" }
     name_mapping: "Chill Movies Collection"
     summary: "The best movies for a lazy weekend afternoon"
-    trakt_list:
-      - https://app.trakt.tv/users/hdlists/lists/sunday-afternoon-movies?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/ehd67/list/sunday-afternoon/
+      - https://letterboxd.com/sirvon/list/relax/
+      - https://letterboxd.com/duda_45x/list/relax/
     collection_order: random
     schedule:
       - weekly(saturday|sunday|monday)
@@ -396,8 +424,8 @@ collections:
                 level: "__" }
     name_mapping: "Weirdo Videostore Collection"
     summary: "Cinema is strange."
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/the-weirdo-s-videostore
+    letterboxd_list:
+      - https://letterboxd.com/maxvayne/list/the-weirdos-videostore-aka-the-weirdos-paradise/
     collection_order: random
     visible_library: true
     visible_home: true
@@ -408,8 +436,11 @@ collections:
                 level: "__" }
     name_mapping: "Controversial Cinema Collection"
     summary: "The most edgy, crazy, disturbing, controversial, shocking, bizarre, scandalous and downright f***ed up films of all time!"
-    trakt_list:
-      - https://app.trakt.tv/users/majeed_pk/lists/dark-deeply-disturbing-controversial-shocking-bizarre-and-messed-up-films
+    letterboxd_list:
+      - https://letterboxd.com/legsan/list/disturbing/
+      - https://letterboxd.com/nickb1/list/shocking/
+      - https://letterboxd.com/cccristiano1/list/disturbing/
+      - https://letterboxd.com/hellointernet/list/controversial-3/
     collection_order: random
     visible_library: false  # This is a hidden collection due to the nature of the content
     visible_home: false  # Not advertised on the home page

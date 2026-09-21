@@ -9,12 +9,8 @@ collections:
                 level: "___" }
     summary: "Now playing on a screen near you"
     url_poster: https://i.imgur.com/LRH1tFr.png
-    trakt_list:
-      - https://app.trakt.tv/users/skerr1q/lists/in-cinemas
-      - https://app.trakt.tv/users/wanzcool/lists/in-cinemas
-      - https://app.trakt.tv/users/eemedia/lists/in-cinemas
-      - https://app.trakt.tv/users/hitman860/lists/movies-in-cinemas
-      - https://app.trakt.tv/users/skerr1q/lists/in-cinemas
+    mdblist_list:
+      - https://mdblist.com/lists/nwithan8/in-cinemas-united-states
     collection_order: release.desc
     sync_mode: sync
     visible_library: true
@@ -27,9 +23,11 @@ collections:
                 level: "___" }
     summary: "The hottest movies right now"
     url_poster: https://i.imgur.com/6jZNd6W.png
-    trakt_chart:
-      chart: trending
-      limit: 30
+    simkl_trending:
+      period: week
+      limit: 50
+    mdblist_list:
+      - https://mdblist.com/lists/official/movies/trending
     collection_order: custom
     sync_mode: sync
     visible_library: true

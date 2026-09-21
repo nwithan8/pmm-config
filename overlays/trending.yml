@@ -14,6 +14,6 @@ overlays:
       repo: images/overlays/global_trending
       horizontal_align: right
       vertical_align: top
-    trakt_chart:  # Match the "Trending Now" collection rules
-      chart: trending
-      limit: 30
+    simkl_trending:  # Match the "Trending Now" collection rules
+      period: week
+      limit: 50

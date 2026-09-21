@@ -56,9 +56,9 @@ collections:
                 level: "__" }
     name_mapping: "Just the Worst Collection"
     summary: "The worst movies of all time."
-    trakt_list:
-      - https://app.trakt.tv/users/hdlists/lists/worst-movies-of-all-time
-      - https://app.trakt.tv/users/nwithan8/lists/5-or-less-on-rotton-tomatoes?sort=rank,asc
+    mdblist_list:
+      - https://mdblist.com/lists/nwithan8/5-or-less-on-rotton-tomatoes
+      - https://mdblist.com/lists/john/worst-movies-of-all-time
     collection_order: random
     sync_mode: append
     # default schedule
@@ -73,7 +73,9 @@ collections:
                 level: "__" }
     name_mapping: "Box Office Bombs Collection"
     summary: "Tired tropes, sky-high budgets, global pandemics or just plain bad? Either way, these movies bombed at the box office."
-    trakt_list: https://app.trakt.tv/users/nwithan8/lists/biggest-box-office-bombs?sort=rank,asc
+    letterboxd_list:
+      - https://letterboxd.com/strong_style/list/biggest-box-office-bombs/
+      - https://letterboxd.com/kinocrusader/list/box-office-bomb/
     collection_order: random
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -88,8 +90,8 @@ collections:
                 sort_title: "How Did This Get Made?",
                 level: "__" }
     summary: "The films of the podcast 'How Did This Get Made?'"
-    trakt_list:
-      - https://app.trakt.tv/users/lish408/lists/how-did-this-get-made-podcast
+    letterboxd_list:
+      - https://letterboxd.com/wallacewells19/list/how-did-this-get-made/
     collection_order: custom
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -253,8 +255,14 @@ collections:
     template: { name: Collection,
                 level: "_" }
     summary: "Make it a Blockbuster Night"
-    trakt_list:
-      - https://app.trakt.tv/users/padawan_seneca/lists/childhood-vhs-movies
+    letterboxd_list:
+      - https://letterboxd.com/noahkraig/list/hey-i-have-an-idea-lets-go-rent-a-vhs-dvd/
+      - https://letterboxd.com/jamesalexander/list/childhood-vhs-collection/
+      - https://letterboxd.com/maerio82/list/my-childhood-vhs-collection/
+      - https://letterboxd.com/romanpanda/list/cozy-list-of-cartoons-that-we-watched-in/
+      - https://letterboxd.com/brettcumine/list/childhood-vhs/
+      - https://letterboxd.com/capmoon28/list/childhood-vhs/
+      - https://letterboxd.com/mahdih/list/childhood-vhs/
     collection_order: random
     sync_mode: sync  # Match collection exactly
     # default schedule
@@ -317,8 +325,8 @@ collections:
                 level: "_" }
     name_mapping: "Marvel Cinematic Universe Collection"
     summary: "The Marvel Cinematic Universe"
-    trakt_list:
-      - https://app.trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    mdblist_list:
+      - https://mdblist.com/lists/lucici65/mcu-chronological-order
     collection_order: release
     # default schedule
     visible_library: true
@@ -331,8 +339,9 @@ collections:
                 level: "_" }
     name_mapping: "DC Cinematic Universe Collection"
     summary: "The DC Cinematic Universe"
-    trakt_list:
-      - https://app.trakt.tv/users/ale-spatti06/lists/dc-entertainment-s-movies-dceu
+    mdblist_list:
+      - https://mdblist.com/lists/jxduffy/dc-chronological-order
+      - https://mdblist.com/lists/neonvariant/gunns-dcu
     collection_order: release
     # default schedule
     visible_library: true
@@ -345,8 +354,9 @@ collections:
                 level: "_" }
     name_mapping: "Batman Collection"
     summary: "I'm Batman."
-    trakt_list:
-      - https://app.trakt.tv/users/andersonwallacerj/lists/batman
+    letterboxd_list:
+      - https://letterboxd.com/fantic/list/batman/
+      - https://letterboxd.com/jamie_h11/list/batman/
     collection_order: release
     # default schedule
     visible_library: true
@@ -372,8 +382,8 @@ collections:
     template: { name: Franchise,
                 sort_title: "Star Trek",
                 level: "_" }
-    trakt_list:
-      - https://app.trakt.tv/users/dgw/lists/star-trek-canon
+    letterboxd_list:
+      - https://letterboxd.com/fantic/list/star-trek/
     url_background: https://i.redd.it/vz20prnp8v551.jpg
     collection_order: release
     # default schedule
@@ -386,8 +396,8 @@ collections:
     template: { name: Franchise,
                 sort_title: "Star Wars",
                 level: "_" }
-    trakt_list_details:
-      - https://app.trakt.tv/users/sonicwarrior/lists/star-wars-canon-timeline
+    letterboxd_list:
+      - https://letterboxd.com/drchuck/list/star-wars/
     url_background: https://images.unsplash.com/photo-1579566346927-c68383817a25
     collection_order: custom
     # default schedule
@@ -416,9 +426,8 @@ collections:
                 sort_title: "Godzilla",
                 level: "_" }
     name_mapping: "Godzilla Collection"
-    trakt_list:
-      - https://app.trakt.tv/users/quentinz/lists/godzilla
-      - https://app.trakt.tv/users/marcelocastanheira/lists/godzilla
+    letterboxd_list:
+      - https://letterboxd.com/ben_walker/list/godzilla/
     url_background: https://www.scified.com/media/versions_of_godzilla.jpg
     collection_order: release
     # default schedule

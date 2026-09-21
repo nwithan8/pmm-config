@@ -54,9 +54,9 @@ collections:
                 level: "_____" }
     summary: "The hottest shows right now"
     url_poster: https://i.imgur.com/6jZNd6W.png
-    trakt_chart:
-      chart: trending
-      limit: 30
+    simkl_trending:
+      period: week
+      limit: 50
     collection_order: custom
     sync_mode: sync
     visible_library: true
