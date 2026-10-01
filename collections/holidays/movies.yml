@@ -317,8 +317,8 @@ collections:
     collection_order: custom
     minimum_items: 1
     # One movie added each day to list, have to parse the list every day
-    trakt_list:
-      - https://app.trakt.tv/users/lish408/lists/31-days-of-horror-2025  # TODO: Change annually
+    letterboxd_list:
+      - https://letterboxd.com/missmaryqc/list/halloween-advent-calendar-2026/  # TODO: Change annually
     url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/genre/Horror.jpg
     schedule:
       - range(10/01-11/01)
@@ -337,12 +337,11 @@ collections:
     visible_library: range(10/01-10/31)
     template: { name: Holiday,
                 level: "___" }
-    summary: "Trick or Treat!"
+    summary: "Trick or Treat! Safe for the whole family!"
     name_mapping: "Trick or Treat Collection"
     collection_order: random
     minimum_items: 3
     letterboxd_list:
-      - https://letterboxd.com/mysteriis666/list/halloween/
       - https://letterboxd.com/dwayneallen/list/family-halloween/
       - https://letterboxd.com/notredame/list/family-halloween/
       - https://letterboxd.com/helensaurus/list/family-halloween/
