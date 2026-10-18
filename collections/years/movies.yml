@@ -6,7 +6,7 @@ templates:
   Movies_Best_of_Year:
     default:
       level: ""
-    trakt_list: https://app.trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<key>>
+    mdblist_list: https://mdblist.com/lists/siskourso/rotten-tomatoes-best-of-<<key>>
     sort_title: 080__<<level>>_Best of <<key>>
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<key>>
@@ -46,7 +46,7 @@ dynamic_collections:
     type: number
     sync: true
     data:
-      starting: 2014
+      starting: 2023
       ending: current_year
     title_format: "🍅 Best of <<key_name>>"
     template:

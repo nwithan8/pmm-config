@@ -21,16 +21,12 @@ collections:
     summary: "Celebrate Black History Month with these movies!"
     collection_order: random
     minimum_items: 3
+    sync_mode: append
     serializd_list:
       - https://www.serializd.com/list/Black-led-tv-shows-726179
       - https://www.serializd.com/list/black-friendship-shows-432483
       - https://www.serializd.com/list/Black-History-Month-2025-274355
       - https://www.serializd.com/list/black-history-month-watchlist-104466
-    trakt_list:
-      - https://app.trakt.tv/users/k0meta/lists/black-history-month
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-anglo-american
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent-caribbean
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-african-black-descent
 
   "🌏 AAPI Heritage Month":
     schedule:
@@ -44,24 +40,11 @@ collections:
     summary: "Celebrate Asian American and Pacific Islander Heritage Month with these movies!"
     collection_order: random
     minimum_items: 3
+    sync_mode: append
     serializd_list:
       - https://www.serializd.com/list/Asian-Dramas-To-Watch-598400
       - https://www.serializd.com/list/Asian-series-725460
       - https://www.serializd.com/list/asian-dramas-397161
-    trakt_list:
-      - https://app.trakt.tv/users/k0meta/lists/asian-american-pacific-islander-heritage-month
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-chinese
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-filipino-philippine
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-indigenous-minority
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-japanese
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-korean
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-south
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-asian-descent-southeast
-      - https://app.trakt.tv/users/bangiras/lists/diversity-main-characters-of-oceania-pacific-islander-descent
-      - https://app.trakt.tv/users/bangiras/lists/plot-media-featuring-china-and-chinese-culture
-      - https://app.trakt.tv/users/bangiras/lists/plot-media-featuring-japan-and-japanese-culture
-      - https://app.trakt.tv/users/bangiras/lists/plot-media-featuring-korea-and-korean-culture
 
   "🏳️‍🌈 LGBTQ+ Pride Month":
     schedule:
@@ -170,6 +153,7 @@ collections:
     summary: "Cozy up with some Christmas classics."
     collection_order: random
     builder_level: episode # Collection is of specific episodes
+    sync_mode: append
     serializd_list:
       # Christmas episodes of TV shows
       - https://www.serializd.com/list/christmas-%F0%9F%8E%84-100368
