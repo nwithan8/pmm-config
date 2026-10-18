@@ -397,15 +397,6 @@ collections:
     visible_home: false
     visible_shared: false
 
-  ION:
-    template: { name: Network,
-                network: ["ION"],
-                poster: https://theposterdb.com/api/assets/113191 }
-    summary: "Shows Aired on ION"
-    visible_library: false
-    visible_home: false
-    visible_shared: false
-
   ITV:
     template: { name: Network,
                 network: ["ITV", "ITV2", "ITV3", "ITV4", "ITVBe", "CITV"],

@@ -15,7 +15,7 @@ collections:
       all:
         # Movie added in the last 7 days
         added: 7
-        content_rating.not: NC-17, NR, X, MA-17, Not Rated
+        content_rating.not: NC-17, NR, X, Not Rated
     visible_library: true
     visible_home: true
     visible_shared: true
